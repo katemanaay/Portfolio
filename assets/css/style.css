@@ -529,10 +529,9 @@ section {
 # About Me
 --------------------------------------------------------------*/
 :root{
-  --primary: hsl(348, 50%, 50%, 0.62);
-  --secondary: #3F5EFb;
-
-} 
+  --primary: #dbe6f6;
+  --secondary: #c5796d;
+}
 .about{
   background: linear-gradient(135deg, var(--primary), var(--secondary  ))
 }
@@ -657,16 +656,13 @@ section {
 /*--------------------------------------------------------------
 # My Resume
 --------------------------------------------------------------*/
-
 :root{
-  --primary: #FC466B;
-  --secondary: #3F5EFb;
-
-} 
+  --primary: #dbe6f6;
+  --secondary: #c5796d;
+}
 .resume{
   background: linear-gradient(135deg, var(--primary), var(--secondary  ))
-}
-.resume .resume-title {
+}.resume .resume-title {
 
   font-size: 26px;
   font-weight: 700;
@@ -736,15 +732,12 @@ section {
 # My Portfolio
 --------------------------------------------------------------*/
 :root{
-  --primary: #FC466B;
-  --secondary: #3F5EFb;
-
-} 
+  --primary: #dbe6f6;
+  --secondary: #c5796d;
+}
 .portfolio{
   background: linear-gradient(135deg, var(--primary), var(--secondary  ))
-}
-
-.portfolio #portfolio-flters {
+}.portfolio #portfolio-flters {
   list-style: none;
   margin-bottom: 20px;
 }
@@ -904,21 +897,24 @@ section {
 /*--------------------------------------------------------------
 # Contact Me
 --------------------------------------------------------------*/
-
-.contact{
-  background: url("../img/web-bg.jpg") top center no-repeat;
+:root{
+  --primary: #dbe6f6;
+  --secondary: #c5796d;
 }
-.contact .info-box {
-  color: #444444;
+.contact{
+  background: linear-gradient(135deg, var(--primary), var(--secondary  ))
+}.contact .info-box {
+  background-color: #e4e9e6;
+  color: #777777;
   text-align: center;
-  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  box-shadow: 0 0 30px rgba(6, 116, 250, 0.6);
   padding: 20px 0 30px 0;
 }
 
 .contact .info-box i.bx {
   font-size: 24px;
   color: #ffb727;
-  border-radius: 50%;
+  border-radius: 100%;
   padding: 15px;
   background: #fff6e4;
 }
@@ -952,7 +948,7 @@ section {
   transition: 0.3s;
   padding: 14px;
   border-radius: 50px;
-  border: 1px solid #dde1e4;
+  border: 2px solid #dde1e4;
 }
 
 .contact .social-links a:hover {
@@ -962,7 +958,7 @@ section {
 }
 
 .contact .php-email-form {
-  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  box-shadow: 0 0 30px rgba(221, 226, 218, 0.6);
   padding: 27px;
 }
 
