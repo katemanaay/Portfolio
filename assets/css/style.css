@@ -904,6 +904,14 @@ section {
 /*--------------------------------------------------------------
 # Contact Me
 --------------------------------------------------------------*/
+:root{
+  --primary: hsl(348, 50%, 63%, 0.65);
+  --secondary: hsl(230, 50%, 62%, 0.62);
+
+} 
+.contact{
+  background: linear-gradient(135deg, var(--primary), var(--secondary  ))
+}
 .contact .info-box {
   color: #444444;
   text-align: center;
