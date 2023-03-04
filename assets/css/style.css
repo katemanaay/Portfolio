@@ -657,6 +657,15 @@ section {
 /*--------------------------------------------------------------
 # My Resume
 --------------------------------------------------------------*/
+
+:root{
+  --primary: #FC466B;
+  --secondary: #3F5EFb;
+
+} 
+.resume{
+  background: linear-gradient(135deg, var(--primary), var(--secondary  ))
+}
 .resume .resume-title {
 
   font-size: 26px;
