@@ -529,7 +529,7 @@ section {
 # About Me
 --------------------------------------------------------------*/
 :root{
-  --primary: #FC466B;
+  --primary: hsl(348, 50%, 50%, 0.62);
   --secondary: #3F5EFb;
 
 } 
@@ -904,13 +904,9 @@ section {
 /*--------------------------------------------------------------
 # Contact Me
 --------------------------------------------------------------*/
-:root{
-  --primary: hsl(348, 50%, 63%, 0.65);
-  --secondary: hsl(230, 50%, 62%, 0.62);
 
-} 
 .contact{
-  background: linear-gradient(135deg, var(--primary), var(--secondary  ))
+  background: url("../img/web-bg.jpg") top center no-repeat;
 }
 .contact .info-box {
   color: #444444;
